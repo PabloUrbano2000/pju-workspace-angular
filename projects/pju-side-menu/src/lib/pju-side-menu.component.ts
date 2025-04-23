@@ -18,6 +18,9 @@ export enum TitleColor {
 export class PjuSideMenuComponent {
   isAuthenticated = input(false)
 
+  title= input('PJU')
+  subtitle = input('Corp')
+
   titleColor = input<TitleColor>(TitleColor.purple)
 
   onSignOut = output()
