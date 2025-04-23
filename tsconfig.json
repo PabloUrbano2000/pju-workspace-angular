@@ -14,6 +14,11 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
+    "paths": {
+      "pju-side-menu": [
+        "./dist/pju-side-menu"
+      ]
+    },
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022"

@@ -1,0 +1,9 @@
+<h1 class="text-3xl font-bold underline">Hola MUNDO</h1>
+<p>Hola de nuevo</p>
+
+<lib-pju-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  (onSignIn)="isAuthenticated.set(true)"
+  (onSignOut)="isAuthenticated.set(false)"
+  [titleColor]="titleColor.green"
+  ></lib-pju-side-menu>
