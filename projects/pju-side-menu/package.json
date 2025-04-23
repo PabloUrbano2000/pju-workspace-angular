@@ -1,6 +1,6 @@
 {
   "name": "pju-side-menu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "directory": "https://github.com/PabloUrbano2000/pju-workspace-angular"
@@ -9,6 +9,7 @@
   "bugs": {
     "url": "https://github.com/PabloUrbano2000/pju-workspace-angular/issues"
   },
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^19.2.0",
     "@angular/core": "^19.2.0"
